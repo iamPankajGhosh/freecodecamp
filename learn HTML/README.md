@@ -160,3 +160,18 @@ Example Code
   <p>Section content...</p>
 </section>
 ```
+
+# Step 16
+
+To create an unordered list of items, you can use the `ul` element.
+
+The `li` element is used to create a list item in an ordered or unordered list.
+
+Example Code
+
+```
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+```

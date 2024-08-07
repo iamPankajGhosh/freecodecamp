@@ -4,8 +4,27 @@ HTML elements have an opening and closing tag with content between.
 
 Here is the basic syntax:
 
-`<openingTag>content</openingTag>`
+```
+<openingTag>content</openingTag>
+```
 
 The first element you will learn about is the `h1` element. The `h1` element is a heading and is used for the main heading of a webpage.
 
-`<h1>This is a main heading</h1>`
+```
+<h1>This is a main heading</h1>
+```
+
+# Step 2
+
+The `h1` through `h6` heading elements are used to signify the importance of content below them. The lower the number, the higher the importance so, `h2` elements have less importance than `h1` elements.
+
+```
+<h1>most important heading element</h1>
+<h2>second most important heading element</h2>
+<h3>third most important heading element</h3>
+<h4>fourth most important heading element</h4>
+<h5>fifth most important heading element</h5>
+<h6>least most important heading element</h6>
+```
+
+Only use one `h1` element per page and place lower importance headings below higher importance headings.

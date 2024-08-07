@@ -61,3 +61,8 @@ Example Code
     <p>Some more important content...</p>
 </main>
 ```
+
+# Step 6
+
+In the previous step, you put the `h1` and `p` elements inside the `main` element. This is called nesting. Nested elements should be placed two spaces
+further to the right of the element they are nested in. This spaceing is called indentation and it is used to make HTML easier to read.

@@ -28,3 +28,11 @@ The `h1` through `h6` heading elements are used to signify the importance of con
 ```
 
 Only use one `h1` element per page and place lower importance headings below higher importance headings.
+
+# Step 3
+
+The `p` element is used to create a paragraph of text on websites.
+
+```
+<p>This is a paragraph</p>
+```

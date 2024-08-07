@@ -66,3 +66,28 @@ Example Code
 
 In the previous step, you put the `h1` and `p` elements inside the `main` element. This is called nesting. Nested elements should be placed two spaces
 further to the right of the element they are nested in. This spaceing is called indentation and it is used to make HTML easier to read.
+
+# Step 7
+
+You can add images to your website by using the `img` element. `img` elements have an opening tag without a closing tag. An element without a closing
+tag is known as a void element.
+
+# Step 8
+
+HTML attribute are special words used inside the opening tag of an element to control the element's behaviour. The `src` attribute in an `img` element specifies the image's URL (where the image is located).
+
+Here is an example of an `img` element with a `src` attribute pointing to the demo image
+
+```
+<img src="https://cdn.demo.com/images/demo.svg">
+```
+
+# Step 9
+
+All `img` elements should have an `alt` attribute. The `alt` attribute's text is used for screen readers to improve accessibility and is diplayed if the image failed to load.
+
+Example code
+
+```
+<img src="cat.jpg" alt="A cat">
+```

@@ -91,3 +91,57 @@ Example code
 ```
 <img src="cat.jpg" alt="A cat">
 ```
+
+# Step 10
+
+You can link to another page with the anchor (`a`) element.
+
+Here is an example linking to `https://google.com`
+
+```
+<a href="https://google.com"></a>
+```
+
+# Step 11
+
+A link's text must be placed between the opening and closing tags of an anchor (`a`) element.
+
+Here is an example of a link with the text click here to go to `google.com`:
+
+```
+<a href="https://www.google.com">click here to go to google.com</a>
+```
+
+# Step 12
+
+You can turn any text into a link, such as the text inside of a `p` element.
+
+Example Code
+
+```
+<p>I think <a href="https://www.google.com">Google</a> is great.</p>
+```
+
+# Step 13
+
+To open links in a new tab, you can use the `target` attribute on the anchor (`a`) element.
+
+The `target` attribute specifies where to open the linked document. `target="_blank"` opens the linked document in a new tab or window.
+
+Here is the basic syntax for an `a` element with a `target` attribute:
+
+```
+<a href="https://www.google.com" target="_blank">Google</a>
+```
+
+# Step 14
+
+In previous steps you used an anchor element to turn text into a link. Other types of content can also be turned into a link by wrapping it in anchor tags.
+
+Here is an example of turning an image into a link:
+
+```
+<a href="example-link">
+  <img src="image-link.jpg" alt="A photo of a cat.">
+</a>
+```

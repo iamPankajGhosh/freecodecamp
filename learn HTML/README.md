@@ -145,3 +145,18 @@ Here is an example of turning an image into a link:
   <img src="image-link.jpg" alt="A photo of a cat.">
 </a>
 ```
+
+# Step 15
+
+Before adding any new content, you should make use of a `section` element to separate the cat photos content from the future content.
+
+The `section` element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
+
+Example Code
+
+```
+<section>
+  <h2>Section Title</h2>
+  <p>Section content...</p>
+</section>
+```

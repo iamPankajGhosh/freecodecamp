@@ -36,3 +36,13 @@ The `p` element is used to create a paragraph of text on websites.
 ```
 <p>This is a paragraph</p>
 ```
+
+# Step 4
+
+Commenting allows you to leave messages without affecting the browser display. It also allows you to make code inactive. A comment in HTML starts with `<!--`, contains any number of lines of text, and ends with `-->`
+
+Here is an example of a comment with the `TODO: Remove h1`
+
+```
+<!-- TODO: Remove h1 -->
+```

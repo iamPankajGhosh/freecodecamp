@@ -358,3 +358,42 @@ Example Code
 # Step 28
 
 The `legend` element acts as a caption for the content in the `fieldset` element. It gives users context about what they should enter into that part of the form.
+
+Example Code
+
+```
+<fieldset>
+  <legend>
+    Is your cat an indoor or outdoor cat?
+  </legend>
+
+  <label>
+    <input id="indoor" type="radio" name="indoor-outdoor" value="indoor">
+    Indoor
+  </label>
+
+  <label>
+    <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">
+    Outdoor
+  </label>
+</fieldset>
+```
+
+# Step 25
+
+Forms commonly use checkboxes for questions that may have more than one answer. The `input` element with a `type` attribute set to `checkbox` creates a checkbox.
+
+Example Code
+
+```
+<input type="checkbox" id="loving"> Loving
+```
+
+There's another way to associate an `input` element's text with the element itself. You can nest the text within a `label` element and add a `for` attribute with the same value as the `input` element's `id` attribute.
+
+Example Code
+
+```
+<input id="loving" type="checkbox">
+<label for="loving">Loving</label>
+```

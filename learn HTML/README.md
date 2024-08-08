@@ -227,3 +227,15 @@ Example Code
 ```
 <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
 ```
+
+# Step 22
+
+The `form` element is used to get information from a user like their name, email, and other details.
+
+The `action` attribute indicates where form data should be sent.
+
+Here is an example of a `form` element with an `action` attribute:
+
+```
+<form action="/submit-url"></form>
+```

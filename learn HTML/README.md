@@ -257,3 +257,22 @@ Example Code
 ```
 <input type="text" name="name" placeholder="Ex. Jane Doe">
 ```
+
+# Step 24
+
+The `button` element is used to create a clickable button.
+
+Add a `button` element with the text `Submit` below the `input` element. The default behavior of clicking a form button without any attributes submits the form to the location specified in the form's `action` attribute.
+
+Even though you added your button below the text input, they appear next to each other on the page. That's because both `input` and `button` elements are inline elements, which don't appear on new lines.
+
+The button you added will submit the form by default. However, relying on default behavior may cause confusion. Add the `type` attribute with the value `submit` to the `button` to make it clear that it is a submit button.
+
+Example Code
+
+```
+<form action="/submit-url">
+  <input type="text" name="name" placeholder="Ex. Jane Doe">
+  <button type="submit">Submit</button>
+</form>
+```

@@ -286,3 +286,49 @@ Here is an example of a radio button with the option of cat:
 ```
 <input type="radio"> cat
 ```
+
+# Step 26
+
+`label` elements are used to help associate the text for an `input` element with the `input` element itself (especially for assistive technologies like screen readers).
+
+The `id` attribute is used to identify specific HTML elements. Each `id` attribute's value must be unique from all other `id` values for the entire page.
+
+Example Code
+
+```
+<label>
+  <input id="indoor" type="radio"> Indoor
+</label>
+
+<label>
+  <input id="outdoor" type="radio"> Outdoor
+</label>
+```
+
+Notice that both radio buttons can be selected at the same time. To make it so selecting one radio button automatically deselects the other, both buttons must have a `name` attribute with the same value.
+
+```
+<label>
+  <input id="indoor" type="radio" name="indoor-outdoor"> Indoor
+</label>
+
+<label>
+  <input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor
+</label>
+```
+
+If you select the `Indoor` radio button and submit the form, the form data for the button is based on its `name` and `value` attributes. Since your radio buttons do not have a `value` attribute, the form data will include `indoor-outdoor=on`, which is not useful when you have multiple buttons.
+
+Add a value attribute to both radio buttons. For convenience, set the button's value attribute to the same value as its `id` attribute.
+
+```
+<label>
+  <input type="radio" id="indoor" name="indoor-outdoor" value="indoor">
+  Indoor
+</label>
+
+<label>
+  <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">
+  Outdoor
+</label>
+```

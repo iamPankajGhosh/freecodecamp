@@ -379,7 +379,7 @@ Example Code
 </fieldset>
 ```
 
-# Step 25
+# Step 29
 
 Forms commonly use checkboxes for questions that may have more than one answer. The `input` element with a `type` attribute set to `checkbox` creates a checkbox.
 
@@ -396,4 +396,16 @@ Example Code
 ```
 <input id="loving" type="checkbox">
 <label for="loving">Loving</label>
+```
+
+# Step 30
+
+The `footer` element is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+
+Example Code
+
+```
+<footer>
+      <p>No Copyright</p>
+</footer>
 ```

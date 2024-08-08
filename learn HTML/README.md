@@ -217,3 +217,13 @@ Example Code
   <li>other cats</li>
 </ol>
 ```
+
+# Step 21
+
+The `strong` element is used to indicate that some text is of strong importance or urgent.
+
+Example Code
+
+```
+<figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+```

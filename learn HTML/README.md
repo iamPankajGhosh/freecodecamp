@@ -276,3 +276,13 @@ Example Code
   <button type="submit">Submit</button>
 </form>
 ```
+
+# Step 25
+
+You can use radio buttons for questions where you want only one answer out of multiple options.
+
+Here is an example of a radio button with the option of cat:
+
+```
+<input type="radio"> cat
+```

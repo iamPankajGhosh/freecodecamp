@@ -239,3 +239,21 @@ Here is an example of a `form` element with an `action` attribute:
 ```
 <form action="/submit-url"></form>
 ```
+
+# step 23
+
+The `input` element allows you several ways to collect data from a web form. Like img elements, input elements are a void element and do not need closing tags.
+
+There are many kinds of inputs you can create using the `type` attribute. You can easily create a password field, reset button, or a control to let users select a file from their computer.
+
+In order for a form's data to be accessed by the location specified in the `action` attribute, you must give the text field a `name` attribute and assign it a value to represent the data being submitted.
+
+A `placeholder` attribute is used to give people a hint about what kind of information to enter into an input.
+
+To prevent a user from submitting your form when required information is missing, you need to add the required attribute to an input element. There's no need to set a value to the required attribute. Instead, just add the word required to the input element, making sure there is space between it and other attributes.
+
+Example Code
+
+```
+<input type="text" name="name" placeholder="Ex. Jane Doe">
+```

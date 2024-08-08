@@ -204,3 +204,16 @@ Example Code
 ```
 <figcaption>Cats <em>love</em> lasagna.</figcaption>
 ```
+
+# Step 20
+
+The code for an ordered list (`ol`) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
+
+Example Code
+
+```
+<ol>
+  <li>thunder</li>
+  <li>other cats</li>
+</ol>
+```

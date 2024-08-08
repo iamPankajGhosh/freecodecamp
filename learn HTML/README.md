@@ -194,3 +194,13 @@ Here is an example of a `figcaption` element with the caption of `A cute cat`:
   <figcaption>A cute cat</figcaption>
 </figure>
 ```
+
+# Step 19
+
+To place emphasis on a specific word or phrase, you can use the `em` element.
+
+Example Code
+
+```
+<figcaption>Cats <em>love</em> lasagna.</figcaption>
+```
